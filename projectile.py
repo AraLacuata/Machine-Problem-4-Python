@@ -38,4 +38,8 @@ x[len(d)] = (ax/2)*tm**2 + vox*tm
 y[len(d)] = 0
 
 plt.plot(x,y)
+plt.xlabel('Distance')
+plt.ylabel('Height')
+plt.xlim(0,max(x)+1)
+plt.ylim(0,max(y)+1)
 plt.grid()
